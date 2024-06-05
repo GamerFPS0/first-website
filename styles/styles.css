@@ -1,0 +1,31 @@
+body {
+    background-color: grey;
+}
+
+.part_up_header {
+    background-color: white;
+    padding: 15px; /* Espaciado mejorado */
+    display: flex; /* Flexbox para mejor distribución */
+    align-items: center; /* Centrado vertical */
+}
+
+.part_up_header img {
+    max-width: 100px; /* Ajuste del tamaño máximo */
+}
+
+.part_up_header .Home {
+    padding-left: 30px;
+}
+
+.part_up_header .Store {
+    padding-left: 40px;
+}
+
+.part_up_header .About_us_link {
+    margin-left: auto; /* Empuja el elemento hacia la derecha */
+}
+
+
+.content{
+    background-color: white;
+}
