@@ -2,6 +2,8 @@ body {
     background-color: grey;
 }
 
+
+
 .part_up_header {
     background-color: white;
     padding: 15px; /* Espaciado mejorado */
@@ -25,7 +27,53 @@ body {
     margin-left: auto; /* Empuja el elemento hacia la derecha */
 }
 
-
 .content{
+    padding: 0px;
+}
+
+
+.horizontal-list{
+    list-style-type: none;
     background-color: white;
+    width: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.horizontal-list li{
+    flex: 0 2 calc(20% - 1px); /* Define el tamaño de los elementos, ajusta el valor según tus necesidades */
+    margin: 5px; /* Añade un poco de espacio entre los elementos */
+}
+
+.Rings-men{
+    text-align: center;
+}
+
+.Rings-men h1 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.Rings-men img {
+    width: 55%;
+    display: block;
+    margin: 0 auto; /* Centra la imagen dentro del elemento */
+}
+
+
+.T-shirt-men{
+    text-align: center;
+}
+
+.T-shirt-men h1 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.T-shirt-men img {
+    width: 55%;
+    display: block;
+    margin: 0 auto; /* Centra la imagen dentro del elemento */
 }
